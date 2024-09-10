@@ -1,0 +1,12 @@
+(components) - All the modules that we are going to create
+data_ingestion.py - Reading a dataset from some source
+data_transformation.py - After ingesting the data, we have to transform the data
+model_trainer.py - For training the mdoel
+
+(pipeline)
+train_pipeline.py - Code related to training. From this file we will call all the files in the components
+predict_pipeline.py- For prediction
+
+logger.py- For the logging purpose
+exception.py- For the Exception Handling purpose
+utils.py- Any functionality that we will use in the common way that will be used in the entire application
